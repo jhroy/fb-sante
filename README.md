@@ -3,7 +3,7 @@
 # fb-sante
 ### Pourquoi on partage/aime/commente des contenus santé sur Facebook?
 
-Documents relatifs à une présentation faite dans le cadre de l'École d'été «S'informer dans un monde de fausses informations» (juin 2018).<br>Étude sur les publications de 69 pages Facebook relatives à la santé entre janv. 2013 et mai 2018.
+Documents relatifs à une présentation faite dans le cadre de l'[École d'été «S'informer dans un monde de fausses informations» (juin 2018)](https://comsante.uqam.ca/ecole-dete-sinformer-dans-un-monde-de-fausses-informations-produire-et-interpreter-des-contenus-dans-le-nouvel-ecosysteme-informationnel-du-26-au-28-juin-2018/).<br>Étude sur les publications de 69 pages Facebook relatives à la santé entre janv. 2013 et mai 2018.
 
 ### Code
 
