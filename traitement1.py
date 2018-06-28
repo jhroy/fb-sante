@@ -11,7 +11,7 @@ tag = treetaggerwrapper.TreeTagger(TAGLANG='fr')
 
 connection = pymysql.connect(host='localhost',
 	user='root',
-	password="",
+	password="1234567",
 	db='fb_sante',
 	charset='utf8mb4',
 	cursorclass=pymysql.cursors.DictCursor)
