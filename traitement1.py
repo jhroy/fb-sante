@@ -69,10 +69,10 @@ for post in posts:
 					letype = "bigrams"
 					i = 0
 					for mot in mots[:-1]:
+						i += 1
 						mot = mot.lower()
 						if mot.isalpha():
 							if len(mot) > 1:
-								i += 1
 								if mot != mots[i].lower():
 									if mot not in rien or mots[i].lower() not in rien:
 										if "." not in mot and "," not in mot and "-" not in mot and "’" not in mot and "!" not in mot and ":" not in mot and "." not in mots[i] and "," not in mots[i] and "-" not in mots[i] and "’" not in mots[i] and "!" not in mots[i] and ":" not in mots[i]:
@@ -86,10 +86,10 @@ for post in posts:
 					letype = "trigrammes"
 					i = 0
 					for mot in mots[:-2]:
+						i += 1
 						mot = mot.lower()
 						if mot.isalpha():
 							if len(mot) > 1:
-								i += 1
 								if mot != mots[i].lower() and mots[i].lower() != mots[i+1].lower() and mot != mots[i+1].lower():
 									if (mot not in rien or mots[i].lower() not in rien) and (mots[i].lower() not in rien or mots[i+1].lower() not in rien):
 										trigram = "{} {} {}".format(mot,mots[i].lower(),mots[i+1].lower())
